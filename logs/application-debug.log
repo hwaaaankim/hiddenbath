@@ -944,3 +944,114 @@ This generated password is for development use only. Your security configuration
 2024-02-21 15:27:29,368 INFO  [Thread-5] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2024-02-21 15:27:29,370 INFO  [Thread-5] com.zaxxer.hikari.HikariDataSource : HikariCP - Shutdown initiated...
 2024-02-21 15:27:29,372 INFO  [Thread-5] com.zaxxer.hikari.HikariDataSource : HikariCP - Shutdown completed.
+2024-02-21 15:27:29,437 INFO  [restartedMain] com.dev.HiddenBATH.HiddenBathApplication : Starting HiddenBathApplication using Java 17.0.8.1 with PID 32632 (D:\BigData\NewWork\ClientSiteJava17\HiddenBATH\target\classes started by thra_ in D:\BigData\NewWork\ClientSiteJava17\HiddenBATH)
+2024-02-21 15:27:29,437 INFO  [restartedMain] com.dev.HiddenBATH.HiddenBathApplication : The following 1 profile is active: "test"
+2024-02-21 15:27:29,566 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-02-21 15:27:29,566 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-02-21 15:27:29,569 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 JDBC repository interfaces.
+2024-02-21 15:27:29,571 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-02-21 15:27:29,571 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-21 15:27:29,573 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2024-02-21 15:27:29,667 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http)
+2024-02-21 15:27:29,667 INFO  [restartedMain] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2024-02-21 15:27:29,667 INFO  [restartedMain] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-21 15:27:29,697 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2024-02-21 15:27:29,697 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 258 ms
+2024-02-21 15:27:29,738 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource : HikariCP - Starting...
+2024-02-21 15:27:29,742 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool : HikariCP - Added connection org.mariadb.jdbc.Connection@6fa0148d
+2024-02-21 15:27:29,742 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource : HikariCP - Start completed.
+2024-02-21 15:27:29,748 INFO  [restartedMain] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-02-21 15:27:29,755 INFO  [restartedMain] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-21 15:27:29,778 WARN  [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-02-21 15:27:29,789 WARN  [restartedMain] org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: de20f630-7c01-4c77-ae55-917f24aa8c7a
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-02-21 15:27:29,875 INFO  [restartedMain] org.springframework.security.web.DefaultSecurityFilterChain : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5a9a76cf, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3f01765, org.springframework.security.web.context.SecurityContextHolderFilter@1173a251, org.springframework.security.web.header.HeaderWriterFilter@47ef80d6, org.springframework.security.web.authentication.logout.LogoutFilter@6c3651f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1c741f22, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@dcd758b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@102c6d9d, org.springframework.security.web.access.ExceptionTranslationFilter@2aa761f6, org.springframework.security.web.access.intercept.AuthorizationFilter@1b54cbf5]
+2024-02-21 15:27:29,988 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer : LiveReload server is running on port 35729
+2024-02-21 15:27:29,999 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8080 (http) with context path ''
+2024-02-21 15:27:30,005 INFO  [restartedMain] com.dev.HiddenBATH.HiddenBathApplication : Started HiddenBathApplication in 0.593 seconds (process running for 2373.808)
+2024-02-21 15:27:30,007 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-02-21 15:29:15,080 INFO  [http-nio-8080-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-21 15:29:15,255 WARN  [http-nio-8080-exec-1] org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-1][front/beauty/index] Deprecated unwrapped fragment expression "fragments/front/beauty/common :: beautyHead" found in template front/beauty/index, line 6, col 7. Please use the complete syntax of fragment expressions instead ("~{fragments/front/beauty/common :: beautyHead}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-02-21 15:29:15,284 WARN  [http-nio-8080-exec-1] org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-1][front/beauty/index] Deprecated unwrapped fragment expression "fragments/front/beauty/common :: beautyHeader" found in template front/beauty/index, line 12, col 31. Please use the complete syntax of fragment expressions instead ("~{fragments/front/beauty/common :: beautyHeader}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-02-21 15:29:15,310 WARN  [http-nio-8080-exec-1] org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-1][front/beauty/index] Deprecated unwrapped fragment expression "fragments/front/beauty/common :: beautyFooter" found in template front/beauty/index, line 382, col 31. Please use the complete syntax of fragment expressions instead ("~{fragments/front/beauty/common :: beautyFooter}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-02-21 15:29:15,314 WARN  [http-nio-8080-exec-1] org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-1][front/beauty/index] Deprecated unwrapped fragment expression "fragments/front/beauty/common :: beautyScript" found in template front/beauty/index, line 387, col 12. Please use the complete syntax of fragment expressions instead ("~{fragments/front/beauty/common :: beautyScript}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-02-21 15:30:53,516 INFO  [File Watcher] org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2024-02-21 15:30:53,522 INFO  [Thread-7] org.apache.catalina.core.StandardService : Stopping service [Tomcat]
+2024-02-21 15:30:53,522 INFO  [Thread-7] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2024-02-21 15:30:53,525 INFO  [Thread-7] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-02-21 15:30:53,526 INFO  [Thread-7] com.zaxxer.hikari.HikariDataSource : HikariCP - Shutdown initiated...
+2024-02-21 15:30:53,527 INFO  [Thread-7] com.zaxxer.hikari.HikariDataSource : HikariCP - Shutdown completed.
+2024-02-21 15:30:53,587 INFO  [restartedMain] com.dev.HiddenBATH.HiddenBathApplication : Starting HiddenBathApplication using Java 17.0.8.1 with PID 32632 (D:\BigData\NewWork\ClientSiteJava17\HiddenBATH\target\classes started by thra_ in D:\BigData\NewWork\ClientSiteJava17\HiddenBATH)
+2024-02-21 15:30:53,587 INFO  [restartedMain] com.dev.HiddenBATH.HiddenBathApplication : The following 1 profile is active: "test"
+2024-02-21 15:30:53,700 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-02-21 15:30:53,700 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-02-21 15:30:53,702 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 JDBC repository interfaces.
+2024-02-21 15:30:53,704 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-02-21 15:30:53,704 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-21 15:30:53,706 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2024-02-21 15:30:53,790 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http)
+2024-02-21 15:30:53,790 INFO  [restartedMain] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2024-02-21 15:30:53,790 INFO  [restartedMain] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-21 15:30:53,820 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2024-02-21 15:30:53,820 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 231 ms
+2024-02-21 15:30:53,857 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource : HikariCP - Starting...
+2024-02-21 15:30:53,861 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool : HikariCP - Added connection org.mariadb.jdbc.Connection@44ffca15
+2024-02-21 15:30:53,861 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource : HikariCP - Start completed.
+2024-02-21 15:30:53,867 INFO  [restartedMain] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-02-21 15:30:53,874 INFO  [restartedMain] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-21 15:30:53,897 WARN  [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-02-21 15:30:53,908 WARN  [restartedMain] org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: af014dfe-328c-4174-b9f5-b75d75c5cd17
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-02-21 15:30:53,993 INFO  [restartedMain] org.springframework.security.web.DefaultSecurityFilterChain : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@612815ae, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6f732185, org.springframework.security.web.context.SecurityContextHolderFilter@4efec30f, org.springframework.security.web.header.HeaderWriterFilter@45b3ae55, org.springframework.security.web.authentication.logout.LogoutFilter@4b2ebcd4, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@c18ddfd, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@61d4efca, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@38315b75, org.springframework.security.web.access.ExceptionTranslationFilter@4c3422a6, org.springframework.security.web.access.intercept.AuthorizationFilter@79f4cec4]
+2024-02-21 15:30:54,102 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer : LiveReload server is running on port 35729
+2024-02-21 15:30:54,112 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8080 (http) with context path ''
+2024-02-21 15:30:54,115 INFO  [restartedMain] com.dev.HiddenBATH.HiddenBathApplication : Started HiddenBathApplication in 0.548 seconds (process running for 2577.918)
+2024-02-21 15:30:54,116 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-02-21 15:31:26,378 INFO  [File Watcher] org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-02-21 15:31:26,384 INFO  [Thread-11] org.apache.catalina.core.StandardService : Stopping service [Tomcat]
+2024-02-21 15:31:26,386 INFO  [Thread-11] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-02-21 15:31:26,387 INFO  [Thread-11] com.zaxxer.hikari.HikariDataSource : HikariCP - Shutdown initiated...
+2024-02-21 15:31:26,388 INFO  [Thread-11] com.zaxxer.hikari.HikariDataSource : HikariCP - Shutdown completed.
+2024-02-21 15:31:26,444 INFO  [restartedMain] com.dev.HiddenBATH.HiddenBathApplication : Starting HiddenBathApplication using Java 17.0.8.1 with PID 32632 (D:\BigData\NewWork\ClientSiteJava17\HiddenBATH\target\classes started by thra_ in D:\BigData\NewWork\ClientSiteJava17\HiddenBATH)
+2024-02-21 15:31:26,444 INFO  [restartedMain] com.dev.HiddenBATH.HiddenBathApplication : The following 1 profile is active: "test"
+2024-02-21 15:31:26,541 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-02-21 15:31:26,541 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-02-21 15:31:26,543 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JDBC repository interfaces.
+2024-02-21 15:31:26,545 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-02-21 15:31:26,545 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-21 15:31:26,546 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2024-02-21 15:31:26,615 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http)
+2024-02-21 15:31:26,618 INFO  [restartedMain] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2024-02-21 15:31:26,618 INFO  [restartedMain] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-21 15:31:26,644 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2024-02-21 15:31:26,645 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 200 ms
+2024-02-21 15:31:26,678 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource : HikariCP - Starting...
+2024-02-21 15:31:26,681 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool : HikariCP - Added connection org.mariadb.jdbc.Connection@7239f76d
+2024-02-21 15:31:26,681 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource : HikariCP - Start completed.
+2024-02-21 15:31:26,686 INFO  [restartedMain] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-02-21 15:31:26,693 INFO  [restartedMain] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-21 15:31:26,713 WARN  [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-02-21 15:31:26,724 WARN  [restartedMain] org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 4f901b04-6f2a-477a-8e2d-98b235a2ff83
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-02-21 15:31:26,799 INFO  [restartedMain] org.springframework.security.web.DefaultSecurityFilterChain : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2655eafe, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@39ea2cd7, org.springframework.security.web.context.SecurityContextHolderFilter@7af62c9b, org.springframework.security.web.header.HeaderWriterFilter@4fa4a336, org.springframework.security.web.authentication.logout.LogoutFilter@1870ea01, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7683e0e3, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@397e2f11, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2442bbcb, org.springframework.security.web.access.ExceptionTranslationFilter@286cebc1, org.springframework.security.web.access.intercept.AuthorizationFilter@39d32a81]
+2024-02-21 15:31:26,895 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer : LiveReload server is running on port 35729
+2024-02-21 15:31:26,905 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8080 (http) with context path ''
+2024-02-21 15:31:26,907 INFO  [restartedMain] com.dev.HiddenBATH.HiddenBathApplication : Started HiddenBathApplication in 0.481 seconds (process running for 2610.711)
+2024-02-21 15:31:26,908 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-02-21 15:32:42,998 INFO  [RMI TCP Connection(49)-127.0.0.1] org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-02-21 15:32:43,004 INFO  [RMI TCP Connection(49)-127.0.0.1] org.apache.catalina.core.StandardService : Stopping service [Tomcat]
+2024-02-21 15:32:43,006 INFO  [RMI TCP Connection(49)-127.0.0.1] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-02-21 15:32:43,006 INFO  [RMI TCP Connection(49)-127.0.0.1] com.zaxxer.hikari.HikariDataSource : HikariCP - Shutdown initiated...
+2024-02-21 15:32:43,008 INFO  [RMI TCP Connection(49)-127.0.0.1] com.zaxxer.hikari.HikariDataSource : HikariCP - Shutdown completed.
