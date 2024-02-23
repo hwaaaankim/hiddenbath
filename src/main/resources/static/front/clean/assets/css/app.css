@@ -1,101 +1,9 @@
-/*------------------------------------------------------------------
-[Master Stylesheet]
-
-Template Name : Ruper
-Description   : Ruper – Furniture HTML Theme
-Author        : CakeTheme
-Version       : 1.0
-Created       : 20/10/2022
--------------------------------------------------------------------*/
-
-/*------------------------------------------------------------------
-[Table of contents]
-
-1. General
-2. Animate
-3. Header
-  3.1. Header Topbar
-  3.2. Header Menu
-  3.3. Header Login
-  3.4. Header Cart
-  3.5. Header Search
-  3.6. Header Wishlist
-4. Breadcrumbs
-5. Block
-  5.1. Block Slider
-  5.2. Block Banners
-  5.3. Block Products
-  5.4. Block Product Categories
-  5.5. Block Video
-  5.6. Block Feature
-  5.7. Block Posts
-  5.8. Block Lookbook
-  5.9. Block Testimonial
-  5.10. Block Intro
-  5.11. Block Newsletter
-  5.12. Block Image
-  5.13. Block Instagram
-  5.14. Block Countdown
-  5.15. Block Map
-  5.16. Block Parallax
-  5.17. Block Product Filter
-  5.18. Blog Post Search
-  5.19. Block Post Categories
-  5.20. Block Post Archives
-  5.21. Block Post Tags
-  5.22. Block Contact Map
-  5.23. Block Contact Info
-  5.24. Block Contact Form
-6. Product Functions
-  6.1. Product - Wishlist
-  6.2. Product - Compare
-  6.3. Product - Quickview
-7. Shop
-  7.1. Shop - Top Bar
-  7.2. Shop - Products
-  7.3. Shop - Details
-  7.4. Shop - Cart
-  7.5. Shop - Checkout
-  7.6. Shop - Wishlist
-8. Blog
-  8.1. Blog - Grid
-  8.2. Blog - List
-  8.3. Blog - Details
-9. Pages
-  9.1. Login / Register
-  9.2. Forget Password
-  9.3. My Account
-  9.4. About Us
-  9.5. Page FAQ
-  9.6. Page 404
-10. Footer
-
--------------------------------------------------------------------*/
-
-/*------------------------------------------------------------------
-[Color codes]
-
-Background  : #ffffff
-Content     : #868686
-
-a (standard): #000000
-a (visited) : #000000
-a (active)  : #000000
--------------------------------------------------------------------*/
-
-/*------------------------------------------------------------------
-[Typography]
-
-Body   : 15px "Barlow Semi Condensed";
-Other  : "EB Garamond";
--------------------------------------------------------------------*/
-
-
-/*===================================================================
-1. General
-====================================================================*/
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css");
 html {
-  font-family: sans-serif;
+   font-family: "Pretendard Variable", Pretendard, -apple-system,
+    BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI",
+    "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
@@ -105,11 +13,14 @@ html {
 }
 body {
   margin: 0;
-  font-family: Barlow Semi Condensed;
+   font-family: "Pretendard Variable", Pretendard, -apple-system,
+    BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI",
+    "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.8;
-  color: #868686;
+  color: #000;
   text-align: left;
   background-color: transparent;
 }
@@ -126,7 +37,10 @@ h4,
 h5, 
 h6 {
   margin-bottom: .5rem;
-  font-family: Barlow Semi Condensed;
+   font-family: "Pretendard Variable", Pretendard, -apple-system,
+    BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI",
+    "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
   font-weight: 400;
   line-height: 1.2;
   color: #000;
@@ -375,7 +289,7 @@ input:-webkit-autofill {
   top: calc(50% - 6px);
   width: 12px;
   height: 12px;
-  border: 1px solid #868686;
+  border: 1px solid #000;
   content: "";
 }
 .custom-radio li input:checked+label:before {
@@ -839,16 +753,17 @@ body.home.title-2 .section .block-title {
 body.home.title-2 .section .block-title h2 {
   font-size: 50px;
   line-height: 1;
-  color: #868686;
-  font-weight: 300;
+  color: #000;
+  font-weight: 600;
 }
 body.home.title-3 .section .block-title {
   margin-bottom: 45px;
 }
 body.home.title-3 .section .block-title h2 {
-  font-size: 28px;
-  font-weight: 300;
+  font-size: 24px;
+  font-weight: 500;
   line-height: 1;
+  letter-spacing:0px;
 }
 body.home.title-4 .section .block-title h2 {
   font-size: 32px;
@@ -1106,7 +1021,7 @@ ul.slick-dots li.slick-active button {
   cursor: pointer;
   line-height: 13px;
   font-size: 18px;
-  color: #868686;
+  color: #000;
   border: 1px solid #e5e5e5;
   text-align: center;
   width: 45px;
@@ -1176,7 +1091,7 @@ ul.slick-dots li.slick-active button {
 }
 .product-table .tr-price del .amount {
   font-size: 16px;
-  color: #868686;
+  color: #000;
 }
 .product-table .tr-price ins {
   text-decoration: none;
@@ -1280,7 +1195,7 @@ ul.slick-dots li.slick-active button {
   text-indent: 1px;
   text-align: center;
   vertical-align: middle;
-  color: #868686;
+  color: #000;
   font-size: 15px;
   border: 1px solid #e5e5e5;
   -webkit-transition: none;
@@ -1296,7 +1211,7 @@ ul.slick-dots li.slick-active button {
 .pagination ul li a.prev,
 .pagination ul li a.next {
   font-size: 0;
-  color: #868686;
+  color: #000;
 }
 .pagination ul li a.prev:hover,
 .pagination ul li a.next:hover {
@@ -1778,7 +1693,10 @@ ul.slick-dots li.slick-active button {
 .site-navigation ul > li.level-0 > a {
   position: relative;
   text-transform: capitalize;
-  font-family: Barlow Semi Condensed;
+   font-family: "Pretendard Variable", Pretendard, -apple-system,
+    BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI",
+    "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
   font-weight: 500;
   font-size: 14px;
   background-color: transparent;
@@ -1904,7 +1822,7 @@ ul.slick-dots li.slick-active button {
 .site-navigation ul > li.level-0 ul.sub-menu li a {
   -webkit-transition: all .2s ease;
   transition: all .2s ease;
-  color: #868686;
+  color: #000;
   display: block;
   position: relative;
 }
@@ -1957,8 +1875,8 @@ ul.slick-dots li.slick-active button {
   left: 0;
 }
 .site-navigation ul div.sub-menu ul.menu-list li {
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding-top: 0px;
+  padding-bottom: 0px;
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1978,7 +1896,7 @@ ul.slick-dots li.slick-active button {
   position: relative;
   -webkit-transition: all .2s ease;
   transition: all .2s ease;
-  color: #868686;
+  color: #000;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2134,6 +2052,7 @@ ul.slick-dots li.slick-active button {
 }
 .site-header .header-page-link .login-header {
   font-size: 14px;
+  font-weight:600;
   position: relative;
 }
 .site-header .header-page-link > :first-child {
@@ -2151,7 +2070,7 @@ ul.slick-dots li.slick-active button {
   -webkit-transition: all .3s ease;
   transition: all .3s ease;
   padding-right: 40px;
-  letter-spacing: 2px;
+  letter-spacing: 0px;
 }
 .site-header.color-white .header-page-link .login-header > a {
   color: #fff;
@@ -2713,7 +2632,7 @@ ul.slick-dots li.slick-active button {
   border-color: #000;
 }
 .mini-cart .cart-popup .mini-cart-item a {
-  color: #868686;
+  color: #000;
 }
 .mini-cart .cart-popup .product-image {
   display: inline-block;
@@ -2738,7 +2657,7 @@ ul.slick-dots li.slick-active button {
 }
 .mini-cart .cart-popup .quantity {
   font-weight: 500;
-  color: #868686;
+  color: #000;
   margin: 0;
   margin-top: 0;
 }
@@ -3223,12 +3142,12 @@ ul.slick-dots li.slick-active button {
   font-weight: 500;
 }
 .site-main .page-title .breadcrumbs a {
-  color: #868686;
+  color: #000;
   position: relative;
 }
 .site-main .page-title .breadcrumbs .delimiter {
   margin: 0 10px;
-  color: #868686;
+  color: #000;
 }
 .site-main .page-title .breadcrumbs .delimiter:before {
   position: relative;
@@ -3237,7 +3156,7 @@ ul.slick-dots li.slick-active button {
   height: 12px;
   width: 1px;
   top: 2px;
-  background: #868686;
+  background: #000;
   -webkit-transform: rotate(25deg);
   transform: rotate(25deg);
 }
@@ -4306,7 +4225,7 @@ ul.slick-dots li.slick-active button {
 }
 .block-products .nav-tabs .nav-item .nav-link {
   font-size: 22px;
-  color: #868686;
+  color: #000;
   display: inline-block;
   position: relative;
   padding: 0 0 5px 0;
@@ -4745,7 +4664,7 @@ ul.slick-dots li.slick-active button {
   margin-bottom: 10px;
 }
 .block-product-cats ul li a {
-  color: #868686;
+  color: #000;
   font-weight: 400;
   display: flex;
   justify-content: space-between;
@@ -5019,7 +4938,7 @@ ul.slick-dots li.slick-active button {
 .block-posts .post-item .post-content .post-time {
   display: inline-block;
   font-size: 14px;
-  color: #868686;
+  color: #000;
 }
 .block-posts .post-item .post-content .post-time .post-comment:before {
   content: "|";
@@ -5047,7 +4966,7 @@ ul.slick-dots li.slick-active button {
   margin-bottom: 5px;
 }
 .block-posts.layout-2 .post-content .post-categories a {
-  color: #868686;
+  color: #000;
   font-size: 12px;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -5092,7 +5011,7 @@ ul.slick-dots li.slick-active button {
   margin-bottom: 5px;
 }
 .block-posts.layout-3 .post-content .post-categories a {
-  color: #868686;
+  color: #000;
   font-size: 12px;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -5341,7 +5260,7 @@ ul.slick-dots li.slick-active button {
 }
 .block-lookbook.layout-2 .lookbook-intro-wrap .sub-title {
   font-size: 15px;
-  color: #868686;
+  color: #000;
   line-height: 1.8;
   margin-bottom: 10px;
 }
@@ -5421,14 +5340,20 @@ ul.slick-dots li.slick-active button {
   margin: 0;
 }
 .block-testimonial .testimonial-content .item .testimonial-excerpt {
-  font-family: "EB Garamond", Sans-serif;
+   font-family: "Pretendard Variable", Pretendard, -apple-system,
+    BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI",
+    "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
   font-size: 28px;
   font-style: italic;
   line-height: 38px;
   margin-bottom: 25px;
 }
 .block-testimonial.layout-2 .testimonial-content .item .testimonial-excerpt {
-  font-family: Barlow Semi Condensed;
+   font-family: "Pretendard Variable", Pretendard, -apple-system,
+    BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI",
+    "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
   font-size: 16px;
   font-style: normal;
   line-height: 1.8;
@@ -6076,7 +6001,7 @@ ul.slick-dots li.slick-active button {
   margin-bottom: 0;
 }
 .block-product-filter ul.filter-items li {
-  color: #868686;
+  color: #000;
   margin-right: 10px;
   text-align: center;
   float: left;
@@ -6154,7 +6079,7 @@ ul.slick-dots li.slick-active button {
   margin-bottom: 10px;
 }
 .block-post-cats ul li a {
-  color: #868686;
+  color: #000;
   font-weight: 400;
   display: flex;
   justify-content: space-between;
@@ -6202,7 +6127,7 @@ ul.slick-dots li.slick-active button {
   margin-bottom: 5px;
 }
 .block-post-archives ul li a {
-  color: #868686;
+  color: #000;
 }
 .block-post-archives ul li a:hover {
   color: #000;
@@ -6231,7 +6156,7 @@ ul.slick-dots li.slick-active button {
   border-color: #000;
 }
 .block-post-tags ul li a {
-  color: #868686;
+  color: #000;
 }
 .block-post-tags ul li:hover a {
   color: #fff;
@@ -7059,7 +6984,7 @@ ul.slick-dots li.slick-active button {
   overflow: hidden;
   display: block;
   background: #fff;
-  color: #868686;
+  color: #000;
   max-width: 1000px;
 }
 .quickview-popup .quickview-container .product-detail > .row {
@@ -7147,7 +7072,7 @@ ul.slick-dots li.slick-active button {
 .single-product .quickview-single-info .review-link {
   position: relative;
   top: -5px;
-  color: #868686;
+  color: #000;
   font-size: 14px;
 }
 .quickview-popup .quickview-container .quickview-single-info .description {
@@ -7209,7 +7134,7 @@ ul.slick-dots li.slick-active button {
 .quickview-container .quickview-single-info .quantity button, 
 .single-product .quickview-single-info .quantity button {
   outline-color: transparent;
-  color: #868686;
+  color: #000;
   font-size: 0;
 }
 .quickview-container .quickview-single-info .quantity button:before, 
@@ -7427,7 +7352,7 @@ ul.slick-dots li.slick-active button {
   font-weight: 400;
 }
 .products-topbar .products-sort .sort-list li a {
-  color: #868686;
+  color: #000;
 }
 .products-topbar .products-sort .sort-list li a:hover {
   color: #000;
@@ -8510,7 +8435,7 @@ ul.slick-dots li.slick-active button {
 }
 .shop-details .buttons .add-to-cart-wrap .quantity button {
   outline-color: transparent;
-  color: #868686;
+  color: #000;
   font-size: 0;
 }
 .shop-details .buttons .add-to-cart-wrap .quantity button:before {
@@ -8713,7 +8638,7 @@ ul.slick-dots li.slick-active button {
 }
 .shop-details .product-info .product-meta > span {
   display: inline-flex;
-  color: #868686;
+  color: #000;
   font-size: 12px;
   letter-spacing: 1.5px;
   text-transform: uppercase;
@@ -8730,7 +8655,7 @@ ul.slick-dots li.slick-active button {
   font-size: 12px;
   text-transform: uppercase;
   letter-spacing: 1.5px;
-  color: #868686;
+  color: #000;
   font-weight: 500;
   margin-right: 40px;
 }
@@ -8764,7 +8689,7 @@ ul.slick-dots li.slick-active button {
 .shop-details .product-tabs .nav-tabs .nav-item a {
   border: none;
   font-size: 24px;
-  color: #868686;
+  color: #000;
   padding: 0 0 5px 0;
   position: relative;
 }
@@ -9043,7 +8968,7 @@ ul.slick-dots li.slick-active button {
 }
 .shop-cart .cart-items tbody tr td.product-thumbnail .product-name a {
   font-size: 16px;
-  color: #868686;
+  color: #000;
 }
 .shop-cart .cart-items tbody tr td.product-thumbnail .product-name a:hover {
   color: #000;
@@ -9494,7 +9419,7 @@ ul.slick-dots li.slick-active button {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  color: #868686;
+  color: #000;
   font-size: 13px;
   letter-spacing: 0.5px;
 }
@@ -9652,7 +9577,7 @@ ul.slick-dots li.slick-active button {
 }
 .post-details .post-content-entry .tags-links a {
   font-size: 14px;
-  color: #868686;
+  color: #000;
   font-weight: 500;
   line-height: 40px;
   margin: 2.5px;
@@ -9803,7 +9728,7 @@ ul.slick-dots li.slick-active button {
   font-size: 14px;
 }
 .post-details .comments-area .comments-list .comment-item .comment-content {
-  color: #868686;
+  color: #000;
   font-weight: 400;
 }
 .post-details .comments-area .comments-list .comment-item .comment-content p {
@@ -10306,7 +10231,7 @@ ul.slick-dots li.slick-active button {
   border-top: 1px solid #E5E5E5;
   padding-top: 70px;
   margin-top: 70px;
-  color: #868686;
+  color: #000;
 }
 #site-footer.m-t-0,
 .home #site-footer {
@@ -10372,7 +10297,7 @@ ul.slick-dots li.slick-active button {
   margin-bottom: 8px;
 }
 #site-footer ul li a {
-  color: #868686;
+  color: #000;
 }
 #site-footer ul li a:hover {
   color: #000;

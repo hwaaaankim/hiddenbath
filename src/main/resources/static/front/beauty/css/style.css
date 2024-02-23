@@ -697,6 +697,7 @@ header.smaller.scroll-transparent {
 
 #mainmenu a {
 	display: inline-block;
+	font-size:15px;
 	padding: 25px 0px 25px 20px;
 	text-decoration: none;
 	text-align: center;
