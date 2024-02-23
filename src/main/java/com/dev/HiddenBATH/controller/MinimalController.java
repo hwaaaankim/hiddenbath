@@ -13,4 +13,22 @@ public class MinimalController {
 		
 		return "front/minimal/index";
 	}
+	
+	@GetMapping("/about")
+	public String minimalAbout() {
+		
+		return "front/minimal/about";
+	}
+	
+	@GetMapping("/productList")
+	public String minimalProductList() {
+		
+		return "front/minimal/productList";
+	}
+	
+	@GetMapping("/productDetail")
+	public String minimalProductDetail() {
+		
+		return "front/minimal/productDetail";
+	}
 }

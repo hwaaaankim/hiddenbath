@@ -202,7 +202,6 @@ hr {
 }
 
 .question_title {
-  text-align: center;
   margin-bottom: 25px;
 }
 .question_title h3 {
@@ -385,9 +384,7 @@ main.plain {
 footer {
   border-top: 1px solid #d9e1e6;
   padding: 30px 0;
-  bottom:0;
-  position:absolute;
-  width:100%;
+  
 }
 footer p {
   margin: 0;
@@ -1539,4 +1536,12 @@ input[type=file]::-webkit-file-upload-button:focus, input[type=file].invalid::-w
 .delay-low {
   animation-delay: .9s;
   -webkit-animation-delay: 0.9s;
+}
+.step-process-wrap{
+	text-align: center;
+}
+.step-process-wrap a{
+	margin-right:10px;
+	margin-left:10px;
+	
 }

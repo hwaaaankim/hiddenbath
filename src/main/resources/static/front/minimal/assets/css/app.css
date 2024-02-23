@@ -1,101 +1,9 @@
-/*------------------------------------------------------------------
-[Master Stylesheet]
-
-Template Name : Ruper
-Description   : Ruper – Furniture HTML Theme
-Author        : CakeTheme
-Version       : 1.0
-Created       : 20/10/2022
--------------------------------------------------------------------*/
-
-/*------------------------------------------------------------------
-[Table of contents]
-
-1. General
-2. Animate
-3. Header
-  3.1. Header Topbar
-  3.2. Header Menu
-  3.3. Header Login
-  3.4. Header Cart
-  3.5. Header Search
-  3.6. Header Wishlist
-4. Breadcrumbs
-5. Block
-  5.1. Block Slider
-  5.2. Block Banners
-  5.3. Block Products
-  5.4. Block Product Categories
-  5.5. Block Video
-  5.6. Block Feature
-  5.7. Block Posts
-  5.8. Block Lookbook
-  5.9. Block Testimonial
-  5.10. Block Intro
-  5.11. Block Newsletter
-  5.12. Block Image
-  5.13. Block Instagram
-  5.14. Block Countdown
-  5.15. Block Map
-  5.16. Block Parallax
-  5.17. Block Product Filter
-  5.18. Blog Post Search
-  5.19. Block Post Categories
-  5.20. Block Post Archives
-  5.21. Block Post Tags
-  5.22. Block Contact Map
-  5.23. Block Contact Info
-  5.24. Block Contact Form
-6. Product Functions
-  6.1. Product - Wishlist
-  6.2. Product - Compare
-  6.3. Product - Quickview
-7. Shop
-  7.1. Shop - Top Bar
-  7.2. Shop - Products
-  7.3. Shop - Details
-  7.4. Shop - Cart
-  7.5. Shop - Checkout
-  7.6. Shop - Wishlist
-8. Blog
-  8.1. Blog - Grid
-  8.2. Blog - List
-  8.3. Blog - Details
-9. Pages
-  9.1. Login / Register
-  9.2. Forget Password
-  9.3. My Account
-  9.4. About Us
-  9.5. Page FAQ
-  9.6. Page 404
-10. Footer
-
--------------------------------------------------------------------*/
-
-/*------------------------------------------------------------------
-[Color codes]
-
-Background  : #ffffff
-Content     : #868686
-
-a (standard): #000000
-a (visited) : #000000
-a (active)  : #000000
--------------------------------------------------------------------*/
-
-/*------------------------------------------------------------------
-[Typography]
-
-Body   : 15px "Barlow Semi Condensed";
-Other  : "EB Garamond";
--------------------------------------------------------------------*/
-
-
-/*===================================================================
-1. General
-====================================================================*/
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css");
 html {
-  font-family: sans-serif;
+  font-family: "Pretendard Variable", Pretendard, -apple-system,
+    BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI",
+    "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
@@ -105,7 +13,10 @@ html {
 }
 body {
   margin: 0;
-  font-family: Barlow Semi Condensed;
+  font-family: "Pretendard Variable", Pretendard, -apple-system,
+    BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI",
+    "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.8;
@@ -126,7 +37,10 @@ h4,
 h5, 
 h6 {
   margin-bottom: .5rem;
-  font-family: Barlow Semi Condensed;
+   font-family: "Pretendard Variable", Pretendard, -apple-system,
+    BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI",
+    "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
   font-weight: 400;
   line-height: 1.2;
   color: #000;
@@ -1778,7 +1692,10 @@ ul.slick-dots li.slick-active button {
 .site-navigation ul > li.level-0 > a {
   position: relative;
   text-transform: capitalize;
-  font-family: Barlow Semi Condensed;
+   font-family: "Pretendard Variable", Pretendard, -apple-system,
+    BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI",
+    "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
   font-weight: 500;
   font-size: 14px;
   background-color: transparent;
@@ -1941,10 +1858,11 @@ ul.slick-dots li.slick-active button {
 }
 .site-navigation ul div.sub-menu .sub-menu-title {
   display: block;
-  font-size: 18px;
+  font-size: 16px;
   margin-bottom: 18px;
   text-transform: capitalize;
   padding-bottom: 10px !important;
+  font-weight:600;
   position: relative;
 }
 .site-navigation ul div.sub-menu .sub-menu-title:before {
@@ -1957,8 +1875,6 @@ ul.slick-dots li.slick-active button {
   left: 0;
 }
 .site-navigation ul div.sub-menu ul.menu-list li {
-  padding-top: 5px;
-  padding-bottom: 5px;
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -5421,14 +5337,20 @@ ul.slick-dots li.slick-active button {
   margin: 0;
 }
 .block-testimonial .testimonial-content .item .testimonial-excerpt {
-  font-family: "EB Garamond", Sans-serif;
+   font-family: "Pretendard Variable", Pretendard, -apple-system,
+    BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI",
+    "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
   font-size: 28px;
   font-style: italic;
   line-height: 38px;
   margin-bottom: 25px;
 }
 .block-testimonial.layout-2 .testimonial-content .item .testimonial-excerpt {
-  font-family: Barlow Semi Condensed;
+   font-family: "Pretendard Variable", Pretendard, -apple-system,
+    BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI",
+    "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
   font-size: 16px;
   font-style: normal;
   line-height: 1.8;
@@ -10369,7 +10291,7 @@ ul.slick-dots li.slick-active button {
 }
 #site-footer ul li,
 #site-footer p {
-  margin-bottom: 8px;
+  margin-bottom: 2px;
 }
 #site-footer ul li a {
   color: #868686;
@@ -10517,3 +10439,28 @@ ul.slick-dots li.slick-active button {
   flex: 0 0 32.5%;
   max-width: 32.5%;
 }
+
+.product_category{
+	color:rgb(0, 0, 64);
+	background: transparent;
+	font-size:14px;
+	font-weight:600;
+}
+
+.hashtag{
+	font-size:14px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

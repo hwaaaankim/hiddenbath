@@ -13,4 +13,10 @@ public class SurveyController {
 		
 		return "front/survey/index";
 	}
+	
+	@GetMapping("/information")
+	public String surveyInformation() {
+		
+		return "front/survey/information";
+	}
 }
