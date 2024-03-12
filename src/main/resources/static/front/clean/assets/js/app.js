@@ -421,7 +421,7 @@
         });
 
         // Add To Cart button
-        $('.btn-add-to-cart .button').on('click', function(e) {
+        /*$('.btn-add-to-cart .button').on('click', function(e) {
             e.preventDefault();
 
             var btn_atc = $(this);
@@ -437,7 +437,7 @@
                     $('.cart-product-added').remove();
                 }, 2000)
             }, 1000);
-        })
+        })*/
         
         // Wishlist button
         $('.btn-wishlist .product-btn').on('click', function(e) {
